@@ -1,3 +1,6 @@
+/* This CSS is for all pages */
+
+/* Navbar right side */
 .nav-link {
   font-family: Helvetica, sans-serif;
 }
@@ -7,15 +10,18 @@ body {
   /* This image is from pexels.com, which allows free use of all its pictures */
   background-image: url("pexels-life-of-pix-8892.jpg");
 }
+
+/* Header text color */
 .h1 {
   color:rgb(29, 185, 172);
 }
+
+/* Font */
 p, label, button {
   font-family: Helvetica, sans-serif;
 }
-.btn {
-  background-color: rgb(29, 185, 172);
-}
+
+/* Footer */
 footer {
   background-color: darkgrey;
   border-top: 5px solid rgb(29, 185, 172);
@@ -23,6 +29,8 @@ footer {
   width: 100%;
   bottom: 0px;
 }
+
+/* Media Query for 768px and up */
 @media screen and (min-width: 768px) {
   .container-xs {
     width: 66.66%;
@@ -30,4 +38,9 @@ footer {
   .contact-label {
     width: 75%;
   }
+}
+
+/* only for Contact page, button color */
+.btn {
+  background-color: rgb(29, 185, 172);
 }
